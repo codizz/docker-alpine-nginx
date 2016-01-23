@@ -5,7 +5,7 @@
 
 ### doocker-alpine-nginx
 
-This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx` server.
+This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx` v1.8.0-r3.
 
 ### Dockerfile description
 
