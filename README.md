@@ -3,6 +3,11 @@
 [![Image Size](https://img.shields.io/imagelayers/image-size/codizz/nginx/latest.svg)](https://imagelayers.io/?images=codizz/nginx:latest)
 [![Image Layers](https://img.shields.io/imagelayers/layers/codizz/nginx/latest.svg)](https://imagelayers.io/?images=codizz/nginx:latest)
 
+### Supported tags
+
+* [1.8.0](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3)
+* [latest](https://github.com/codizz/docker-alpine-nginx/tree/master)
+
 ### doocker-alpine-nginx
 
 This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx` v1.8.0-r3.
