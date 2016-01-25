@@ -5,8 +5,8 @@
 
 ### Supported tags
 
-* [1.8.0](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3)
-* [latest](https://github.com/codizz/docker-alpine-nginx/tree/master)
+* [`1.8`](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3/Dockerfile)
+* [`latest`](https://github.com/codizz/docker-alpine-nginx/tree/master/Dockerfile)
 
 ### doocker-alpine-nginx
 
