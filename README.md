@@ -5,12 +5,12 @@
 
 ### Supported tags
 
-* [`1.8`](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3/Dockerfile)
-* [`latest`](https://github.com/codizz/docker-alpine-nginx/tree/master/Dockerfile)
+* [`1.8.0`, `1.8`](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3) ([1.8/Dockerfile](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3/Dockerfile))
+* [`latest`](https://github.com/codizz/docker-alpine-nginx/tree/master)([latest/Dockerfile](https://github.com/codizz/docker-alpine-nginx/tree/master/Dockerfile))
 
 ### doocker-alpine-nginx
 
-This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx` v1.8.0-r3.
+This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx`.
 
 ### Dockerfile description
 
