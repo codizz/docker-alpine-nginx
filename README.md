@@ -1,3 +1,4 @@
+![Circle CI](https://img.shields.io/circleci/project/codizz/docker-alpine-nginx.svg)
 ![Docker Stars](https://img.shields.io/docker/stars/codizz/nginx.svg)
 ![Docker Pulls](https://img.shields.io/docker/pulls/codizz/nginx.svg)
 [![Image Size](https://img.shields.io/imagelayers/image-size/codizz/nginx/latest.svg)](https://imagelayers.io/?images=codizz/nginx:latest)
@@ -5,12 +6,11 @@
 
 ### Supported tags
 
-* [`1.8.0`, `1.8`](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3) ([1.8/Dockerfile](https://github.com/codizz/docker-alpine-nginx/tree/v1.8.0-r3/Dockerfile))
 * [`latest`](https://github.com/codizz/docker-alpine-nginx/tree/master)([latest/Dockerfile](https://github.com/codizz/docker-alpine-nginx/tree/master/Dockerfile))
 
-### doocker-alpine-nginx
+### Project
 
-This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx`.
+This project is a Docker image project for [nginx](http://nginx.org/). The Docker image is based on [docker-alpine](https://github.com/gliderlabs/docker-alpine) v3.3 with installed `nginx` v1.8.0-r3.
 
 ### Dockerfile description
 
@@ -20,7 +20,7 @@ This docker image based on a super small Docker Image [docker-alpine](https://gi
 
 Nginx server will be installed using Alpine Linux Package Management.
 
-    RUN apk add --update nginx && \
+    RUN apk add --update nginx=1.8.0-r3 && \
     
 After Nginx installation, clean `apk` cache
 
