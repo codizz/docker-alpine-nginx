@@ -1,7 +1,7 @@
 FROM alpine:3.3
 MAINTAINER Georg Koch <dev@codizz.de>
 
-RUN apk add --update nginx && \
+RUN apk add --update nginx=1.8.0-r3 && \
     rm -rf /var/cache/apk/* && \
     ln -sf /dev/stdout /var/log/nginx/access.log && \
     ln -sf /dev/stderr /var/log/nginx/error.log
